@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health Care</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/font.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div id="hc-preloader">
+    <div class="hc-loading">
+      <svg version="1.2" height="300" width="600" xmlns="http://www.w3.org/2000/svg" viewport="0 0 60 60"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <path id="pulsar" stroke="rgba(0,155,155,1)" fill="none" stroke-width="2" stroke-linejoin="round"
+          d="M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210" />
+      </svg>
+    </div>
+  </div>
+  <!-- preloader end -->
+  <div class="hc-main-wraper" id="home">
+    <!-- top header start -->
+    <div class="hc-top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="hc-top-head-left hc-top-head-div">
+              <p>
+                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M256,0C114.845,0,0,114.839,0,256s114.845,256,256,256c141.161,0,256-114.839,256-256S397.155,0,256,0z M256,474.628
+                                    C135.45,474.628,37.372,376.55,37.372,256S135.45,37.372,256,37.372s218.628,98.077,218.628,218.622
+                                    C474.628,376.55,376.55,474.628,256,474.628z" />
+                    <path
+                      d="M343.202,256h-80.973V143.883c0-10.321-8.365-18.686-18.686-18.686s-18.686,8.365-18.686,18.686v130.803
+                                    c0,10.321,8.365,18.686,18.686,18.686h99.659c10.321,0,18.686-8.365,18.686-18.686S353.523,256,343.202,256z" />
+                  </svg></span>
+                Opening Hours : 24 x 7
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="hc-top-head-right hc-top-head-div">
+              <p>
+                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 473.806 473.806">
+                    <path d="M374.456,293.506c-9.7-10.1-21.4-15.5-33.8-15.5c-12.3,0-24.1,5.3-34.2,15.4l-31.6,31.5c-2.6-1.4-5.2-2.7-7.7-4
+                                    c-3.6-1.8-7-3.5-9.9-5.3c-29.6-18.8-56.5-43.3-82.3-75c-12.5-15.8-20.9-29.1-27-42.6c8.2-7.5,15.8-15.3,23.2-22.8
+                                    c2.8-2.8,5.6-5.7,8.4-8.5c21-21,21-48.2,0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5c-6-6.2-12.3-12.6-18.8-18.6
+                                    c-9.7-9.6-21.3-14.7-33.5-14.7s-24,5.1-34,14.7c-0.1,0.1-0.1,0.1-0.2,0.2l-34,34.3c-12.8,12.8-20.1,28.4-21.7,46.5
+                                    c-2.4,29.2,6.2,56.4,12.8,74.2c16.2,43.7,40.4,84.2,76.5,127.6c43.8,52.3,96.5,93.6,156.7,122.7c23,10.9,53.7,23.8,88,26
+                                    c2.1,0.1,4.3,0.2,6.3,0.2c23.1,0,42.5-8.3,57.7-24.8c0.1-0.2,0.3-0.3,0.4-0.5c5.2-6.3,11.2-12,17.5-18.1c4.3-4.1,8.7-8.4,13-12.9
+                                    c9.9-10.3,15.1-22.3,15.1-34.6c0-12.4-5.3-24.3-15.4-34.3L374.456,293.506z M410.256,398.806
+                                    C410.156,398.806,410.156,398.906,410.256,398.806c-3.9,4.2-7.9,8-12.2,12.2c-6.5,6.2-13.1,12.7-19.3,20
+                                    c-10.1,10.8-22,15.9-37.6,15.9c-1.5,0-3.1,0-4.6-0.1c-29.7-1.9-57.3-13.5-78-23.4c-56.6-27.4-106.3-66.3-147.6-115.6
+                                    c-34.1-41.1-56.9-79.1-72-119.9c-9.3-24.9-12.7-44.3-11.2-62.6c1-11.7,5.5-21.4,13.8-29.7l34.1-34.1c4.9-4.6,10.1-7.1,15.2-7.1
+                                    c6.3,0,11.4,3.8,14.6,7c0.1,0.1,0.2,0.2,0.3,0.3c6.1,5.7,11.9,11.6,18,17.9c3.1,3.2,6.3,6.4,9.5,9.7l27.3,27.3
+                                    c10.6,10.6,10.6,20.4,0,31c-2.9,2.9-5.7,5.8-8.6,8.6c-8.4,8.6-16.4,16.6-25.1,24.4c-0.2,0.2-0.4,0.3-0.5,0.5
+                                    c-8.6,8.6-7,17-5.2,22.7c0.1,0.3,0.2,0.6,0.3,0.9c7.1,17.2,17.1,33.4,32.3,52.7l0.1,0.1c27.6,34,56.7,60.5,88.8,80.8
+                                    c4.1,2.6,8.3,4.7,12.3,6.7c3.6,1.8,7,3.5,9.9,5.3c0.4,0.2,0.8,0.5,1.2,0.7c3.4,1.7,6.6,2.5,9.9,2.5c8.3,0,13.5-5.2,15.2-6.9
+                                    l34.2-34.2c3.4-3.4,8.8-7.5,15.1-7.5c6.2,0,11.3,3.9,14.4,7.3c0.1,0.1,0.1,0.1,0.2,0.2l55.1,55.1
+                                    C420.456,377.706,420.456,388.206,410.256,398.806z" />
+                    <path d="M256.056,112.706c26.2,4.4,50,16.8,69,35.8s31.3,42.8,35.8,69c1.1,6.6,6.8,11.2,13.3,11.2c0.8,0,1.5-0.1,2.3-0.2
+                                    c7.4-1.2,12.3-8.2,11.1-15.6c-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3,3.7-15.6,11
+                                    S248.656,111.506,256.056,112.706z" />
+                    <path d="M473.256,209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2,3.7-15.5,11
+                                    c-1.2,7.4,3.7,14.3,11.1,15.6c46.6,7.9,89.1,30,122.9,63.7c33.8,33.8,55.8,76.3,63.7,122.9c1.1,6.6,6.8,11.2,13.3,11.2
+                                    c0.8,0,1.5-0.1,2.3-0.2C469.556,223.306,474.556,216.306,473.256,209.006z" />
+                  </svg></span>
+                <a href="tel:8380080058" style="color: white;">(+91) 8380080058,</a>
+                <a href="tel:02562-299244" class="contact-number" style="color: white;">02562-299244</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top header end -->
+    <!-- main header start -->
+    <div class="hc-main-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="hc-logo">
+              <a href="./index.html">
+                <img src="./assets//images/Logo 01.png" alt="logo" width="50px" />
+                <span class="h-name1 logo">Shree Chhatrapati</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-6">
+            <div class="hc-main-head-flex">
+              <div class="hc-main-menu">
+                <div class="hc-navbar about-head">
+                  <ul>
+                    <li>
+                      <a href="./index.html">home</a>
+                    </li>
+                    <li class="hc-has-submenu active">
+                      <a href="#">Speciality</a>
+                      <ul class="hc-submenu">
+                        <li>
+                          <a href="./services/neurosurgery.html">
+                            Neurosurgery
+                          </a>
+                        </li>
+                        <li>
+                          <a href="./services/orthopedicsurgery.html">
+                            Orthopaedic Surgery</a>
+                        </li>
+                        <li>
+                          <a href="./services/jointreplacementsurgery.html">Joint Replacement
+                            Surgery
+                          </a>
+                        </li>
+                        <li>
+                          <a href="./services/plasticsurgery.html">
+                            Plastic Surgery</a>
+                        </li>
+                        <li>
+                          <a href="./services/physician.html"> General Medicine </a>
+                        </li>
+                        <li>
+                          <a href="./services/nephrology.html"> Nephrology</a>
+                        </li>
+                        <li>
+                          <a href="./services/generalsurgery.html">
+                            General Surgery</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="./about.html">about</a>
+                    </li>
+                    <li>
+                      <a href="./team.html">team</a>
+                    </li>
+                    <li>
+                      <a href="./contact.html">contact us</a>
+                    </li>
+                    <li>
+                      <a href="./gallery.html">Gallery</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hc-menu-toggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="hc-head-btn">
+                <button class="hc-btn" data-toggle="modal" data-target="#hc-appointment">
+                  Appointment
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about start -->
+    <div class="hs_page_title about-cn">
+      <div class="container about">
+        <h2 style="color: white;">About Us</h2>
+        <h5 style="color: white;">Welcome to Shree Chhatrapati Hospital</h5>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row about-container">
+        <div class="col-lg-6">
+          <img src="img/Hospital img.jpg" alt="img" width="100%" style="margin-top: 3rem;" />
+        </div>
+        <div class="col-lg-6">
+          <h3>Who We Are</h3>
+          <p>
+            Shree Chhatrapati Hospital, is situated in Dhule, Maharashtra, India. Established in April 2021 during covid
+            time in view of serving patients. We specialize in a wide range of medical disciplines, including
+            Neurosurgery & Trauma, Orthopaedic and Joint Replacement Surgery, Plastic Surgery, General Medicine,
+            Nephrology, General Surgery, and many more specialty services. Our multidisciplinary approach ensures that
+            our patients receive comprehensive care tailored to their specific needs. We
+            prioritize patient safety and comfort, creating an environment conducive to healing and recovery. At Shree
+            Chhatrapati Hospital, we leverage our expertise and resources to deliver accurate and efficient medical
+            care. </p>
+        </div>
+      </div>
+    </div>
+
+     <!-- services start -->
+    <div class="hc-service hc-spacer-top" id="service">
+      <div class="container">
+        <h2 class="intro intro2 intro3">Services And Specialization</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-service-box">
+              <div class="hc-service-icon hc-service-ico-clr1">
+                <img src="assets/images/neurosurgery.png" width="70%" alt="service" />
+              </div>
+              <h1 class="hc-service-title">Neurosurgery</h1>
+              <p>
+                The surgical management of disorders affecting the brain, spine, and nervous system.
+              </p>
+              <a href="./services/neurosurgery.html" class="hc-service-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.356 493.356">
+                  <path
+                    d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136
+                                        c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563
+                                        c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708
+                                        l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-service-box">
+              <div class="hc-service-icon">
+                <img src="assets/images/shin.png" alt="service" width="70%" class="knee" />
+              </div>
+              <h1 class="hc-service-title">Orthopaedic Surgery</h1>
+              <p>
+                Medical specialty focused on bones, joints & associated structures.
+              </p>
+              <a href="./services/orthopedicsurgery.html" class="hc-service-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.356 493.356">
+                  <path
+                    d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136
+                                        c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563
+                                        c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708
+                                        l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-service-box">
+              <div class="hc-service-icon hc-service-ico-clr1">
+                <img src="assets/images/knee.png" width="70%" alt="service" />
+              </div>
+              <h1 class="hc-service-title">Joint Replacement Surgery</h1>
+              <p>
+                It treats joint conditions to improve mobility & reduce pain.
+              </p>
+              <a href="./services/jointreplacementsurgery.html" class="hc-service-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.356 493.356">
+                  <path
+                    d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136
+                                        c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563
+                                        c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708
+                                        l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-service-box">
+              <div class="hc-service-icon hc-service-ico-clr2">
+                <img src="assets/images/cosmetic-surgery.png" width="70%" alt="service" />
+              </div>
+              <h1 class="hc-service-title">Plastic Surgery</h1>
+              <p>
+                Focuses on restoring lost function and improving self-esteem by altering appearance.
+              </p>
+              <a href="./services/plasticsurgery.html" class="hc-service-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.356 493.356">
+                  <path
+                    d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136
+                                        c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563
+                                        c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708
+                                        l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-service-box">
+              <div class="hc-service-icon hc-service-ico-clr4">
+                <img src="assets/images/doctor.png" width="70%" alt="service" />
+              </div>
+              <h1 class="hc-service-title">General Medicine</h1>
+              <p>
+                Medical specialty deals with blood pressure, diabetes, and lifestyle diseases.
+              </p>
+              <a href="./services/physician.html" class="hc-service-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.356 493.356">
+                  <path
+                    d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136
+                                        c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563
+                                        c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708
+                                        l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-service-box">
+              <div class="hc-service-icon hc-service-ico-clr3">
+                <img src="assets/images/urology.png" width="70%" alt="service" />
+              </div>
+              <h1 class="hc-service-title">Nephrology</h1>
+              <p>
+                Medical specialty focused on the diagnosis & treatment of
+                kidney diseases.
+              </p>
+              <a href="./services/nephrology.html" class="hc-service-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.356 493.356">
+                  <path
+                    d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136
+                                        c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563
+                                        c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708
+                                        l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-service-box">
+              <div class="hc-service-icon hc-service-ico-clr3">
+                <img src="assets/images/doctor.png" width="70%" alt="service" />
+              </div>
+              <h1 class="hc-service-title">General Surgery</h1>
+              <p>
+                Medical specialty deals with problems related to the chest and abdomen.
+              </p>
+              <a href="./services/generalsurgery.html" class="hc-service-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.356 493.356">
+                  <path
+                    d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136
+                                        c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563
+                                        c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708
+                                        l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-service-box">
+              <div class="hc-service-icon hc-service-ico-clr2">
+                <img src="assets/images/intensive-care-unit.png" width="70%" alt="service" />
+              </div>
+              <h1 class="hc-service-title">ICU</h1>
+              <p>Critical care unit, saving lives with compassion and advanced technology. </p>
+              <a href="javascript:;" class="hc-service-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.356 493.356">
+                  <path
+                    d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136
+                                        c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563
+                                        c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708
+                                        l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="more-btn col-lg-12">
+                    <button class="hc-btn">More Services</button>
+                </div> -->
+      </div>
+    </div>
+
+    <div class="container info">
+      <h3 class="intro3">What we Stand For</h3>
+    </div>
+
+    <div class="container facilities-container">
+      <h1>Our Premium Facilities</h1>
+      <div class="row container facilities-card-container">
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/neurology.png" class="user-img" alt="img">
+          <div>
+            <h4>Dedicated Neuro Trauma Center</h4>
+            <p>Experience exceptional care at our dedicated Neuro Trauma Center. Our specialized team of
+              neurosurgeons, trauma surgeons, and neurologists provide comprehensive treatment for
+              traumatic brain and spinal cord injuries. With state-of-the-art technology and a
+              compassionate approach, we deliver timely and advanced care from stabilization to
+              rehabilitation. Your well-being is our priority.</p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/emergency.png" class="user-img" alt="img">
+          <div>
+            <h4>Well-equipped ICU</h4>
+            <p>Experience exceptional care at our Well-equipped ICU Center. Our dedicated team of skilled
+              healthcare professionals provides specialized care for critically ill patients using
+              state-of-the-art technology. From advanced monitoring to life-saving interventions, we
+              ensure the highest level of medical support. With a focus on patient safety and comfort,
+              trust us for comprehensive critical care services.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/operation-theatre.png" class="user-img" alt="img">
+          <div>
+            <h4>Operation Theater</h4>
+            <p>Our medical center is equipped with two advanced operation theaters (OT) designed to meet the
+              highest standards of surgical care. Our OTs are equipped with state-of-the-art technology,
+              ensuring a sterile and controlled environment for surgical procedures. With a dedicated team
+              of skilled surgeons and support staff, we prioritize patient safety and precision during
+              every operation.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/instrument.png" class="user-img" alt="img">
+          <div>
+            <h4>Laboratory Service</h4>
+            <p>
+              There is a central collection center for receiving and collecting various specimens for
+              testing. The timing for receiving specimens are at OPD- 9:00 AM to 5:00 PM & IPD-Round a
+              clock. Also emergency labarotary services are available 24 hours for limited tests.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/dialysis.png" class="user-img" alt="img">
+          <div>
+            <h4>Dialysis Center</h4>
+            <p>Our dialysis center provides comprehensive and compassionate care using advanced technology
+              to enhance the lives of individuals with renal health needs. Our dedicated team prioritizes
+              both physical and emotional well-being, creating a supportive community and offering
+              personalized treatment plans, educational resources, and ongoing support for optimal health
+              outcomes.
+
+
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/ct-scan.png" class="user-img" alt="img">
+          <div>
+            <h4>Radiology </h4>
+            <p>Discover our cutting-edge CT Scan Center, providing advanced imaging for accurate diagnoses.
+              Our skilled team of radiologists and technicians utilize state-of-the-art technology to
+              deliver detailed cross-sectional images of your body. From routine screenings to complex
+              diagnostics, we prioritize your safety and comfort. Trust us for timely and precise imaging
+              to support your healthcare needs.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/pathology.png" class="user-img" alt="img">
+          <div>
+            <h4>Pathology</h4>
+            <p>Our pathology facility at our medical center is a leading-edge hub for comprehensive
+              diagnostic services. Equipped with state-of-the-art technology and staffed by a team of
+              expert pathologists, we are committed to delivering accurate and timely analysis of
+              specimens to aid in the detection, diagnosis, and treatment planning of various diseases.
+              Our advanced laboratory infrastructure enables us to conduct a wide range of tests,ensuring
+              the highest quality of results.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/physiotherapy.png" class="user-img" alt="img">
+          <div>
+            <h4>Physiotherapy Center</h4>
+            <p>Experience exceptional care at our Physiotherapy Center. Our skilled team of physiotherapists
+              offers personalized treatment plans to help you regain strength and mobility. From manual
+              therapy to cutting-edge techniques, we're committed to optimizing your recovery journey.
+              Regain independence and enhance your quality of life with our comprehensive services.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/cashless-payment.png" class="user-img" alt="img">
+          <div>
+            <h4>All TPA's Cashless Facilities</h4>
+            <p>Experience hassle-free cashless hospitalization with our All TPA's Cashless Facilities
+              service. We have partnered with a wide network of TPAs to ensure a smooth insurance claims
+              process. Our dedicated team will assist you in obtaining necessary approvals for cashless
+              hospitalization, relieving you of financial concerns. Focus on your health while we provide
+              convenient and stress-free access to quality healthcare with maximum insurance benefits.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/pharmacy.png" class="user-img" alt="img">
+          <div>
+            <h4>24*7 Pharmacy</h4>
+            <p>Access round-the-clock pharmaceutical services at our 24*7 Pharmacy. Our friendly pharmacists
+              are available to assist with prescriptions, medication inquiries, and over-the-counter
+              recommendations. With a wide range of products in stock, we provide prompt and reliable
+              service for all your healthcare needs. Trust us for quality care and convenience, anytime
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/ambulance.png" class="user-img" alt="img">
+          <div>
+            <h4>Emergency Service</h4>
+            <p>Experience life-saving care with our Emergency Service. Our skilled team is equipped to
+              handle any medical crisis, providing immediate assessment, stabilization, and treatment.
+              With state-of-the-art facilities and a dedicated staff, we deliver prompt and effective care
+              for sudden illnesses, severe injuries, and emergencies. Trust us to prioritize your
+              well-being and provide compassionate support in critical moments.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities" style="display: flex;">
+          <img src="assets/images/hospital-bed.png" class="user-img" alt="img">
+          <div>
+            <h4>100+ Beds Available</h4>
+            <p>We have over 100 beds available, ensuring ample capacity for patient care. Our spacious and
+              well-equipped facility provides a comfortable environment for a variety of medical
+              conditions and treatments. From general care to specialized treatments and surgeries, our
+              hospital can accommodate a larger number of patients while maintaining high standards of
+              quality and personalized attention.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-lg-6 facilities last-faciliti-box" style="display: flex; box-align:center;">
+          <img src="assets/images/nurse.png" class="user-img" alt="img">
+          <div>
+            <h4>Nursing Staff</h4>
+            <p>Experience compassionate and skilled care with our Nursing Staff service. Our highly trained
+              nurses provide round-the-clock monitoring, medication administration, and support for
+              patient well-being. Trust our dedicated team to create a nurturing environment where your
+              needs are prioritized.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container insurances">
+      <h2>Best Availabe Insurances for you</h2>
+    </div>
+
+    <!-- -------------------------------------------------- -->
+
+    <div class="container-fluid insurance-containt">
+      <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
+        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+          <div class="carousel-item col-md-3  active">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 1" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/MD India Insuarnce.jpg"
+                    alt="slide 1">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item col-md-3 ">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 3" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/Medi Assist.jpg" alt="slide 2">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item col-md-3 ">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 4" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/medsave.jpg" alt="slide 3">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item col-md-3 ">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 5" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/Oriental Insurance.png"
+                    alt="slide 4">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item col-md-3 ">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 6" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/paramount insurance.png"
+                    alt="slide 5">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item col-md-3 ">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 7" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/SBI.png" alt="slide 6">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item col-md-3 ">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 8" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/Start health.png" alt="slide 7">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item col-md-3  ">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 2" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/vidal.jpg" alt="slide 8">
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="carousel-item col-md-3  ">
+            <div class="panel panel-default">
+              <div class="panel-thumbnail">
+                <a href="#" title="image 2" class="thumb">
+                  <img class="img-fluid mx-auto d-block" src="./assets/images/insurance/vipul.png" alt="slide 8">
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- about end -->
+    <div>
+      <a id="whatsapp-button" href="https://wa.me/+918380080058" target="_blank">
+        <!-- <i class="bi bi-whatsapp"></i> -->
+        <img src="./assets/images/wp_icon.png" alt="wp-img" width="60px">
+
+      </a>
+    </div>
+
+    <div class="hc-footer hc-spacer-top hc-spacer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hc-footer-logo">
+              <a href="index.html"><img src="assets/images/footer-logo-new.png" alt="logo" class="footer-logo"
+                  width="25%" /></a>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <ul class="hc-footer-contact-list">
+              <li>
+                <div class="hc-foot-contact-box">
+                  <h2>Address</h2>
+                  <p>
+                    Shree Chhatrapati Hospital, Nakane Road, Deopur, Dhule - 424002 (Old Vedant Mangal Karyalay)
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="hc-foot-contact-box email">
+                  <h2>Talk To Expert</h2>
+                  <a href="tel:8380080058">(+91) 8380080058</a>
+                  <br>
+                  <a href="tel:02562-299244">02562-299244</a>
+
+                  <div class="icon-container">
+                    <p>
+                      <a href="https://www.facebook.com/shreechhatrapatihospital" target="_blank"><i
+                          class="bi bi-facebook s-icons"></i></a>
+                    </p>
+                    <p>
+                      <a href="https://www.instagram.com/shreechhatrapati2021/"
+                        target="_blank"><i class="bi bi-instagram s-icons"></i></a>
+                    </p>
+                    <p>
+                      <a href="https://www.youtube.com/channel/UCuA1d3RIAf54fJuQ29cqt2A" target="_blank"><i
+                          class="bi bi-youtube s-icons"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="hc-foot-contact-box email">
+                  <h2>Email Us</h2>
+                  <a href="mailto:shreechhatrapati2021@gmail.com " target="_blank">shreechhatrapati2021@gmail.com</a>
+                  <a href="mailto:enquire@chhatrapatihospital.org " target="_blank">enquire@chhatrapatihospital.org</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-footer-links">
+              <ul>
+                <li>
+                  <a href="./services/neurosurgery.html">Neurosurgery</a>
+                </li>
+                <li>
+                  <a href="./services/orthopedicsurgery.html">Orthopaedic Surgery</a>
+                </li>
+                <li>
+                  <a href="./services/jointreplacementsurgery.html">Joint Replacement Surgery</a>
+                </li>
+                <li>
+                  <a href="./services/plasticsurgery.html">Plastic Surgery</a>
+                </li>
+                <li>
+                  <a href="./services/physician.html">General Medicine</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-footer-links">
+              <ul>
+                <li>
+                  <a href="./services/nephrology.html">Nephrology</a>
+                </li>
+                <li>
+                  <a href="./services/generalsurgery.html">General Surgery</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-footer-links">
+              <ul>
+                <li>
+                  <a href="./about.html">Operation Theater</a>
+                </li>
+                <li>
+                  <a href="./about.html">Well-equipped ICU </a>
+                </li>
+                <li>
+                  <a href="./about.html">Dialysis Center </a>
+                </li>
+                <li>
+                  <a href="./about.html">Radiology</a>
+                </li>
+                <li>
+                  <a href="./about.html">Pathology </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="hc-footer-links">
+              <ul>
+                <li>
+                  <a href="./about.html">Cashless Facilities</a>
+                </li>
+                <li>
+                  <a href="./about.html">24*7 Pharmacy </a>
+                </li>
+                <li>
+                  <a href="./about.html">Emergency Service</a>
+                </li>
+                <li>
+                  <a href="./about.html">100+ Beds Available</a>
+                </li>
+                <li>
+                  <a href="./about.html">Nursing Staff </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+    <!-- copyright start -->
+    <div class="hc-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="hc-copyright-box">
+              <p>
+                Copyright © 2023 <b>Shree Chhatrapati</b> Hospital
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hc-copyright-box">
+              <a href="https://pracom.in" target="_blank">
+                <p>Design & Developed by <b>Pracom Solutions</b></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright end -->
+    <!-- appointment form modal start -->
+    <div class="modal fade" id="hc-appointment" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Appointment Form</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="hc-contact-box">
+              <form class="form-contact">
+                <input type="text" placeholder="Name" name="name" id="user_name" class="require" required />
+                <input type="email" placeholder="Email" name="email" id="user_email" class="require" required />
+                <input type="number" placeholder="Contact No." name="contact" id="user_contact" class="require"
+                  required />
+                <textarea placeholder="Message" name="message" id="user_message" class="require"></textarea>
+                <button type="submit" value="submit" class="hc-btn">Submit</button>
+                <div class="response"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- appointment form modal end -->
+
+    <!-- go to top start -->
+    <div class="hc-go-top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384" style="transform:rotate(-45deg);">
+        <path d="M373.333,0H138.667C132.771,0,128,4.771,128,10.667V32c0,5.896,4.771,10.667,10.667,10.667h172.5L3.124,350.708
+            c-2.042,2.043-3.082,4.707-3.122,7.383c-0.042,2.783,1,5.579,3.122,7.703l15.082,15.081c2.009,2.01,4.621,3.051,7.255,3.121
+            c2.824,0.076,5.674-0.965,7.829-3.121L341.333,72.833v172.5c0,5.896,4.771,10.667,10.667,10.667h21.333
+            c5.896,0,10.667-4.771,10.667-10.667V10.667C384,4.771,379.229,0,373.333,0z" />
+      </svg>
+    </div>
+    <!-- go to top end -->
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/swiper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/SmoothScroll.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
